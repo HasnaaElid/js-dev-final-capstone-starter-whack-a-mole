@@ -1,6 +1,6 @@
 html {
-  /*background: url('./assets/background.png') no-repeat center center fixed;*/
-  background: url('https://github.com/Thinkful-Ed/js-dev-final-capstone-starter/blob/main/assets/background.png?raw=true') no-repeat center center fixed;
+  background: url('https://github.com/HasnaaElid/js-dev-final-capstone-starter-whack-a-mole/blob/main/assets/background_1.png?raw=true') no-repeat center center fixed;
+  /* background: url('https://github.com/Thinkful-Ed/js-dev-final-capstone-starter/blob/main/assets/background.png?raw=true') no-repeat center center fixed; */
   box-sizing: border-box;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -14,24 +14,25 @@ h1 {
   text-align: center;
   font-size: 90px;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
-  color: white;
-  -webkit-text-stroke: 2px black;
+  color: rgb(33, 168, 28);
+  -webkit-text-stroke: 2px rgb(240, 240, 243);
 }
 
 h2 {
   text-align: center;
   font-size: 40px;
-  color: white;
-  -webkit-text-stroke: 1px black;
+  color: rgb(33, 168, 28);
+  -webkit-text-stroke: 1px rgb(33, 168, 28);
 }
 
 #start {
     text-align: center;
     font-size: 30px;
+
 }
 
 #timer{
-    color: white;
+    color: rgb(33, 168, 28);
 }
 
 .grid {
@@ -40,7 +41,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  /*cursor: url('./assets/mallet.png'), pointer;*/
+  cursor: url('https://github.com/Thinkful-Ed/js-dev-final-capstone-starter/blob/main/assets/mallet.png?raw=true'), pointer;
 }
 
 .hole {
@@ -51,12 +52,12 @@ h2 {
 
 .hole:after {
   display: block;
-  /*background: url("./assets/hole.png") bottom center no-repeat;*/
-  background: url("https://github.com/Thinkful-Ed/js-dev-final-capstone-starter/blob/main/assets/hole.png?raw=true") bottom center no-repeat;
+  background: url('https://github.com/HasnaaElid/js-dev-final-capstone-starter-whack-a-mole/blob/main/assets/cloud.png?raw=true') bottom center no-repeat;
+  /* background: url("https://github.com/Thinkful-Ed/js-dev-final-capstone-starter/blob/main/assets/hole.png?raw=true") bottom center no-repeat; */
   background-size:contain;
   content:'';
   width: 100%;
-  height: 100%;
+  height: 60%;
   position: absolute;
   bottom: -40%;
   z-index: 2;
@@ -64,8 +65,8 @@ h2 {
 }
 
 .mole {
-  /*background:url('./assets/mole.png') bottom center no-repeat;*/
-  background:url('https://github.com/Thinkful-Ed/js-dev-final-capstone-starter/blob/main/assets/mole.png?raw=true') bottom center no-repeat;
+  background:url('https://github.com/HasnaaElid/js-dev-final-capstone-starter-whack-a-mole/blob/main/assets/Alien.png.png?raw=true') bottom center no-repeat;
+  /* background:url('https://github.com/Thinkful-Ed/js-dev-final-capstone-starter/blob/main/assets/mole.png?raw=true') bottom center no-repeat; */
   background-size: 40%;
   position: absolute;
   top: 100%;
@@ -80,3 +81,4 @@ h2 {
   top: 0;
   /*transform: scale(1.1);*/
 }
+
